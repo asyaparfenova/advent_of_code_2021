@@ -17,7 +17,7 @@ def get_triple_increases(numbers):
     numbers: list'''
     incr = 0
     for i in range(3,len(numbers)):
-        if numbers[i]+numbers[i-1]+numbers[i-2] > numbers[i-1]+numbers[i-2]+numbers[i-3]:
+        if numbers[i] > numbers[i-3]:
             incr += 1
     return incr
 
