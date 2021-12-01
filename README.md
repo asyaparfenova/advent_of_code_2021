@@ -8,4 +8,10 @@ In these repository I gonna post the solutions for "Advent of Code 2020" project
 Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.
 More: https://adventofcode.com/2020/about
 
-### Loading...
+### Some key elements of my coding adventure:
+- I use python, every file is dedicated to solving 1 day tasks (so, 2 tasks per day/file)
+- I try to spend not more then 120 min per day for the tasks (not including cleaning and make the code prettier - which I can do later on the day/week)
+- I do not copy the input data into repository
+
+### Special thanks for ideas
+- For Day1 (already): thanks to [Leli](https://github.com/lelilia) for reminding me about types and existence of numpy 💕
