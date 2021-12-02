@@ -3,7 +3,8 @@ for day 2 challenges of Advent of Code 2021"""
 
 
 def get_input_commands(input_data):
-    '''extract instructions from input text'''
+    """extract instructions che from input text
+    input data: str"""
     input_lines = input_data.split('\n')
     result = []
     for il in input_lines:
@@ -14,7 +15,7 @@ def get_input_commands(input_data):
 
 def get_final_coordinates_product(commands):
     """Get result of multiplying a final horizontal position by a final depth;
-    commands: list[str. int]"""
+    commands: list[str, int]"""
     hor = 0
     depth = 0
     for com in commands:
