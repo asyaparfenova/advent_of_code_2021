@@ -128,3 +128,6 @@ dmypy.json
 *.txt
 *.csv
 .idea/
+
+# Exercises
+prac.py
