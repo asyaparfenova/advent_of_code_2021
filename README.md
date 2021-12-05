@@ -9,7 +9,7 @@ Advent of Code is an Advent calendar of small programming puzzles for a variety 
 More: https://adventofcode.com/2020/about
 
 ### Some key elements of my coding adventure:
-- I use python, every file named dayN.py contains solution(s) of N's day tasks (so, two tasks per day/file)
+- I use python, every file named dayN.py contains solution(s) of Nth day tasks (so, two tasks per day/file)
 - I try to spend not more then 120 min per day for the tasks (not including cleaning and make the code prettier - which I can do later on the day/week)
 - I do not copy the input data into repository
 
