@@ -15,3 +15,6 @@ More: https://adventofcode.com/2020/about
 
 ### Special thanks for ideas
 - For Day1 (already): thanks to [Leli](https://github.com/lelilia) for reminding me about types and existence of numpy 💕
+
+### Temporary notes:
+- Day 4 code is still in a cleaning stage...
