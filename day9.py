@@ -41,38 +41,16 @@ def get_risks_sum(mtrx):
             s += get_central_min(mtrx, l, m)
     return s
 
-# def fill(mtrx, l, m): #, area):
-#     nonlocal area
-#     if mtrx[l][m] not in [9, -1]:
-#         mtrx[l][m] = -1
-#         area += 1
-#         print(f"repainted: mtrx[{l}][{m}] AREA IS {area}")
-#     # elif mtrx[l][m] == 9:
-#     #     return area
-#     # li = [mtrx[l + 1][m], mtrx[l][m - 1], mtrx[l][m + 1], mtrx[l - 1][m]]
-#     if mtrx[l + 1][m] not in [9, -1]:
-#         fill(mtrx, l+1, m) #, area)
-#     if mtrx[l][m-1] not in [9, -1]:
-#         fill(mtrx, l, m-1) #, area)
-#     if mtrx[l][m+1] not in [9, -1]:
-#         fill(mtrx, l, m+1) #, area)
-#     if mtrx[l - 1][m] not in [9, -1]:
-#         fill(mtrx, l-1, m) #, area)
-#     return
 
-
-
-
-def flood_fill(mtrx):
+def flood_fill(mtrx): # THIS CALLED FLOOD-FILL ALGORITHM
     """generate ..."""
     areas = []
-
     def fill(mtrx, l, m):  # , area):
         nonlocal area
         if mtrx[l][m] not in [9, -1]:
             mtrx[l][m] = -1
             area += 1
-            print(f"repainted: mtrx[{l}][{m}] AREA IS {area}")
+            # print(f"repainted: mtrx[{l}][{m}] AREA IS {area}")
         # elif mtrx[l][m] == 9:
         #     return area
         # li = [mtrx[l + 1][m], mtrx[l][m - 1], mtrx[l][m + 1], mtrx[l - 1][m]]
@@ -85,7 +63,6 @@ def flood_fill(mtrx):
         if mtrx[l - 1][m] not in [9, -1]:
             fill(mtrx, l - 1, m)  # , area)
         return
-
     for l in range(1, len(mtrx)-1):
         for m in range(1, len(mtrx[l])-1):
             area = 0
