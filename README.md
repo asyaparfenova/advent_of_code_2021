@@ -3,7 +3,7 @@
 ![Advent_of_code_cover Photo Credit: @anniespratt|unsplash.com](https://github.com/asyaparfenova/advent_of_code_2021/blob/main/cover.jpg?raw=true "Photo Credit: 
 @Joanna Kosinska|unsplash.com")
 
-In this repository I am posting the solutions for "Advent of Code 2021" project tasks.
+In this repository I am posting solutions for "Advent of Code 2021".
 
 Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.
 More: https://adventofcode.com/2020/about
